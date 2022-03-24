@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    overflow-x: hidden;
+    overflow-y: auto;    
+}
+
+
+.wrapper .main{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.wrapper .form-container{
+    width: 500px;
+    height: 500px;
+    background-color: #e4e4e4;
+    margin: 20px auto;
+    padding: 20px;   
+}
+
+.wrapper .form-container .btn{
+    width: 100%;   
+}
+
+.wrapper .view-container{
+    width: 600px;    
+    background-color: #e4e4e4;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+tbody{
+    margin-top: 25px;
+}
